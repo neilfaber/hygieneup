@@ -173,7 +173,7 @@ const Navbar: React.FC = () => {
               >
                 <Avatar className="w-8 h-8">
                   <AvatarImage src="/placeholder-user.jpg" alt="Avatar" />
-                  <AvatarFallback>{userData.placeholder}</AvatarFallback>
+                
                 </Avatar>
               </Button>
             </DropdownMenuTrigger>
