@@ -264,9 +264,9 @@ export default function Component() {
                   <Review
                     avatarSrc="/placeholder-user.jpg"
                     avatarFallback="CH"
-                    numFilledStars={userData.rating}
-                    rating={userData.rating}
-                    reviewText={ userData.description}
+                    numFilledStars={5}
+                    rating={5}
+                    reviewText="Just Amazing"
                     numHelpful={18}
                   />
                 </Card>
